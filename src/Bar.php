@@ -5,7 +5,7 @@ Copyright (C) 2015, Danny van Kooten, hi@dannyvankooten.com
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
+the Free Software Foundation, either version 1 of the License, or
 (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
@@ -233,7 +233,7 @@ class Bar {
 				$subscriber = apply_filters( 'ematb_subscriber_data', $subscriber );
 
 				$result = $zozoema->list_subscribe( $zozoema_list_id, $subscriber->email_address, $subscriber->to_array(), $options['update_existing'], $replace_interests );
-				$result = is_object( $result ) && ! empty( $result->id );
+				$result = is_object( $result ) && ! empty( $result->uid );
 			}
 
 		} else {

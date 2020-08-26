@@ -82,7 +82,7 @@ $tabs = array(
 						<select name="<?php echo $this->name_attr( 'list' ); ?>" class="ema4wp-list-input" id="select-zozoema-list">
 							<option disabled <?php selected( $options[ 'list' ], '' ); ?>><?php _e( 'Select a list..', 'zozoema-top-bar' ); ?></option>
 							<?php foreach( $lists as $list ) { ?>
-								<option value="<?php echo esc_attr( $list->id ); ?>" <?php selected( $options[ 'list' ], $list->id ); ?>><?php echo esc_html( $list->name ); ?></option>
+								<option value="<?php echo esc_attr( $list->uid ); ?>" <?php selected( $options[ 'list' ], $list->uid ); ?>><?php echo esc_html( $list->name ); ?></option>
 							<?php } ?>
 						</select>
 						<p class="help"><?php _e( 'Select the list to which visitors should be subscribed.' ,'zozoema-top-bar' ); ?></p>

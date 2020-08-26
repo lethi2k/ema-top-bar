@@ -51,7 +51,7 @@ function _load_zozoema_top_bar() {
 
 	define('ZOZOEMA_TOP_BAR_FILE', __FILE__);
 	define('ZOZOEMA_TOP_BAR_DIR', __DIR__);
-	define('ZOZOEMA_TOP_BAR_VERSION', '1.5.2');
+	define('ZOZOEMA_TOP_BAR_VERSION', '1.0.1');
 
 	// create instance
 	require_once __DIR__ . '/bootstrap.php';
