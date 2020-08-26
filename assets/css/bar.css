@@ -1,0 +1,178 @@
+#zozoema-top-bar {
+  /**
+	* Bar Sizes
+	*/ }
+  #zozoema-top-bar * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  #zozoema-top-bar form,
+  #zozoema-top-bar input,
+  #zozoema-top-bar label {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 100%;
+    outline: 0;
+    height: auto;
+    line-height: initial;
+    float: none; }
+  #zozoema-top-bar input,
+  #zozoema-top-bar label {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    width: auto; }
+  #zozoema-top-bar form {
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important; }
+  #zozoema-top-bar label {
+    margin: 0 6px 0 0; }
+  #zozoema-top-bar input,
+  #zozoema-top-bar input[type="text"],
+  #zozoema-top-bar input[type="email"],
+  #zozoema-top-bar .ematb-email,
+  #zozoema-top-bar .ematb-button {
+    margin: 0 0 0 6px;
+    border: 1px solid white;
+    background: white;
+    height: auto; }
+  #zozoema-top-bar .ematb-email {
+    width: 100%;
+    /* this is important because otherwise the field will stack horizontally */
+    max-width: 240px !important; }
+  #zozoema-top-bar .ematb-button {
+    margin-left: 0;
+    cursor: pointer; }
+  #zozoema-top-bar .ematb-email-confirm {
+    display: none !important; }
+  #zozoema-top-bar.ematb-small {
+    font-size: 10px; }
+    #zozoema-top-bar.ematb-small .ematb-bar {
+      padding: 5px 6px; }
+    #zozoema-top-bar.ematb-small .ematb-button {
+      padding: 4px 12px; }
+    #zozoema-top-bar.ematb-small input,
+    #zozoema-top-bar.ematb-small .ematb-email,
+    #zozoema-top-bar.ematb-small .ematb-label {
+      padding: 4px 6px !important; }
+    #zozoema-top-bar.ematb-small label,
+    #zozoema-top-bar.ematb-small input {
+      font-size: 12px; }
+    #zozoema-top-bar.ematb-small .ematb-close {
+      padding: 4px 12px;
+      font-size: 16px; }
+  #zozoema-top-bar.ematb-medium {
+    font-size: 12.5px; }
+    #zozoema-top-bar.ematb-medium .ematb-bar {
+      padding: 6.25px 7.5px; }
+    #zozoema-top-bar.ematb-medium .ematb-button {
+      padding: 5px 15px; }
+    #zozoema-top-bar.ematb-medium input,
+    #zozoema-top-bar.ematb-medium .ematb-email,
+    #zozoema-top-bar.ematb-medium .ematb-label {
+      padding: 5px 7.5px !important; }
+    #zozoema-top-bar.ematb-medium label,
+    #zozoema-top-bar.ematb-medium input {
+      font-size: 15px; }
+    #zozoema-top-bar.ematb-medium .ematb-close {
+      padding: 5px 15px;
+      font-size: 20px; }
+  #zozoema-top-bar.ematb-big {
+    font-size: 15px; }
+    #zozoema-top-bar.ematb-big .ematb-bar {
+      padding: 7.5px 9px; }
+    #zozoema-top-bar.ematb-big .ematb-button {
+      padding: 6px 18px; }
+    #zozoema-top-bar.ematb-big input,
+    #zozoema-top-bar.ematb-big .ematb-email,
+    #zozoema-top-bar.ematb-big .ematb-label {
+      padding: 6px 9px !important; }
+    #zozoema-top-bar.ematb-big label,
+    #zozoema-top-bar.ematb-big input {
+      font-size: 18px; }
+    #zozoema-top-bar.ematb-big .ematb-close {
+      padding: 6px 18px;
+      font-size: 24px; }
+  @media (max-width: 580px) {
+    #zozoema-top-bar input,
+    #zozoema-top-bar label,
+    #zozoema-top-bar .ematb-email,
+    #zozoema-top-bar .ematb-label {
+      width: 100%;
+      max-width: 100% !important; }
+    #zozoema-top-bar input,
+    #zozoema-top-bar .ematb-email {
+      margin: 6px 0 0 !important; } }
+  @media (max-width: 860px) {
+    #zozoema-top-bar.multiple-input-fields .ematb-label {
+      display: block !important;
+      margin: 0 0 6px; } }
+
+.admin-bar {
+  /* make sure z-index is slightly below that of admin bar (for dropdown items) */ }
+  .admin-bar .ematb {
+    z-index: 99998; }
+  .admin-bar .ematb-position-top {
+    top: 32px; }
+    @media screen and (max-width: 782px) {
+      .admin-bar .ematb-position-top {
+        top: 46px; } }
+    .admin-bar .ematb-position-top.ematb-sticky {
+      /* admin bar is non-sticky on small screens */ }
+      @media screen and (max-width: 600px) {
+        .admin-bar .ematb-position-top.ematb-sticky {
+          top: 0; } }
+
+.ematb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  background: transparent;
+  text-align: center;
+  z-index: 100000; }
+
+.ematb-bar {
+  position: relative;
+  width: 100%; }
+
+.ematb-sticky {
+  position: fixed; }
+
+.ematb-position-bottom {
+  position: fixed;
+  bottom: 0;
+  top: auto; }
+  .ematb-position-bottom .ematb-bar {
+    clear: both; }
+
+.ematb-response {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition-duration: 800ms; }
+
+.ematb-close {
+  display: inline-block;
+  float: right;
+  margin-right: 12px;
+  cursor: pointer;
+  clear: both;
+  z-index: 10; }
+
+.ematb-icon-inside-bar.ematb-position-bottom .ematb-bar {
+  position: absolute;
+  bottom: 0; }
+
+.ematb-icon-inside-bar .ematb-close {
+  float: none;
+  position: absolute;
+  top: 0;
+  right: 0; }
