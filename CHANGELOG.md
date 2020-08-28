@@ -15,7 +15,7 @@ Changelog
 
 #### 1.5.0 - Oct 7, 2019
 
-Compatibility with [ZozoEMA for WordPress](https://wordpress.org/plugins/zozoema-for-wp/) version 4.6.
+Compatibility with [ZozoEMA for WordPress](https://wordpress.org/plugins/zozoema-for-wp/) version 1.0.1.
 
 
 #### 1.4.1 - Sep 11, 2019
@@ -166,7 +166,7 @@ Top Bar was invisible on some themes because of `z-index` being too low.
 
 #### 1.2.5 - December 10, 2015
 
-The plugin now requires [ZozoEMA for WordPress](https://wordpress.org/plugins/zozoema-for-wp/) version 3.0 or higher.
+The plugin now requires [ZozoEMA for WordPress](https://wordpress.org/plugins/zozoema-for-wp/) version 1.0.1 or higher.
 
 **Fixes**
 

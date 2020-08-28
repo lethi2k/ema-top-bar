@@ -28,7 +28,8 @@ function ematb_get_options()
         'send_welcome' => 0,
         'update_existing' => 0,
         'text_subscribed' => __( "Thanks, you're in! Please check your email inbox for a confirmation.", 'zozoema-top-bar' ),
-        'text_error' => __( "Oops. Something went wrong.", 'zozoema-top-bar' ),
+        'text_error' => __( "You are already subscribed. Thank you!", 'zozoema-top-bar' ),
+        // Oops. Something went wrong.
         'text_invalid_email' => __( 'That email seems to be invalid.', 'zozoema-top-bar' ),
         'text_already_subscribed' => __( "You are already subscribed. Thank you!", 'zozoema-top-bar' ),
         'disable_on_pages' => '',

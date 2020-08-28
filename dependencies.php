@@ -1,7 +1,7 @@
 <?php
 
-// check for ZozoEMA for WordPress (version 3.0 or higher)
-if( defined( 'EMA4WP_VERSION' ) && version_compare( EMA4WP_VERSION, '3.0', '>=' ) ) {
+// check for ZozoEMA for WordPress (version 1.0 or higher)
+if( defined( 'EMA4WP_VERSION' ) && version_compare( EMA4WP_VERSION, '1.0', '>=' ) ) {
 	return true;
 }
 

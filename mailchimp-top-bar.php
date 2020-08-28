@@ -16,7 +16,7 @@ Copyright (C) 2015-2020, Danny van Kooten, hi@dannyvankooten.com
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
+the Free Software Foundation, either version 1 of the License, or
 (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
@@ -51,7 +51,7 @@ function _load_zozoema_top_bar() {
 
 	define('ZOZOEMA_TOP_BAR_FILE', __FILE__);
 	define('ZOZOEMA_TOP_BAR_DIR', __DIR__);
-	define('ZOZOEMA_TOP_BAR_VERSION', '1.5.2');
+	define('ZOZOEMA_TOP_BAR_VERSION', '1.0.1');
 
 	// create instance
 	require_once __DIR__ . '/bootstrap.php';
