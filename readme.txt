@@ -1,6 +1,6 @@
 === EMA4WP: ZozoEMA Top Bar ===
 Contributors: Ibericode, DvanKooten, hchouhan, lapzor
-Donate link: https://zozo.vn/ung-dung-email-marketing
+Donate link: https://appv4.zozo.vn/ung-dung-email-marketing
 Tags: zozoema, form, newsletter, ema4wp, email, opt-in, subscribe, call to action
 Requires at least: 1.0.1
 Tested up to: 1.0.1
@@ -51,7 +51,7 @@ Since this plugin depends on the [ZozoEMA for WordPress plugin](https://wordpres
 1. In your WordPress admin panel, go to *Plugins > New Plugin*, search for **ZozoEMA Top Bar** and click "*Install now*"
 1. Alternatively, download the plugin and upload the contents of `zozoema-top-bar.zip` to your plugins directory, which usually is `/wp-content/plugins/`.
 1. Activate the plugin
-1. Set [your ZozoEMA API key](https://zozo.vn/account/api) in **ZozoEMA for WP > ZozoEMA Settings**.
+1. Set [your ZozoEMA API key](https://appv4.zozo.vn/account/api) in **ZozoEMA for WP > ZozoEMA Settings**.
 1. Select a ZozoEMA list to subscribe to in **ZozoEMA for WP > Top Bar**.
 1. _(Optional)_ Customize the look & position of your opt-in bar.
 
@@ -75,7 +75,7 @@ add_filter( 'ematb_show_bar', function( $show ) {
 } );
 `
 
-Have a look at the [Conditional Tags](https://zozo.vn/frontend/docs/api/v1) page for all accepted functions.
+Have a look at the [Conditional Tags](https://appv4.zozo.vn/frontend/docs/api/v1) page for all accepted functions.
 
 = How to add a name field to the bar? =
 
@@ -95,7 +95,7 @@ add_filter( 'ematb_subscriber_data', function( $subscriber ) {
 });
 `
 
-**KB:** [Add name field to ZozoEMA Top Bar](https://zozo.vn/frontend/docs/api/v1)
+**KB:** [Add name field to ZozoEMA Top Bar](https://appv4.zozo.vn/frontend/docs/api/v1)
 
 = How to hide the bar on small screens? =
 
@@ -118,7 +118,7 @@ Please open a topic on the [WordPress.org plugin support forums](https://github.
 
 == Screenshots ==
 
-1. The ZozoEMA Top Bar in action on the [ZozoEMA for WordPress site](https://zozo.vn/lists).
+1. The ZozoEMA Top Bar in action on the [ZozoEMA for WordPress site](https://appv4.zozo.vn/lists).
 2. The settings page of the ZozoEMA Top Bar plugin.
 
 == Changelog ==
