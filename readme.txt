@@ -1,6 +1,6 @@
 === EMA4WP: ZozoEMA Top Bar ===
 Contributors: Ibericode, DvanKooten, hchouhan, lapzor
-Donate link: https://appv4.zozo.vn/ung-dung-email-marketing
+Donate link: https://zozo.vn/ung-dung-email-marketing
 Tags: zozoema, form, newsletter, ema4wp, email, opt-in, subscribe, call to action
 Requires at least: 1.0.1
 Tested up to: 1.0.1
